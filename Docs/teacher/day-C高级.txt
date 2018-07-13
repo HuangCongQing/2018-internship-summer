@@ -1,0 +1,23 @@
+C语言:
+
+C基础
+	变量:       万事万物都是有类型的.
+		身高-浮点double   体重-浮点      个数-整形     颜色-字符串类型
+		double height;      double  weight;    int cnt;     char color[32];
+					          short
+					          long
+			
+	
+	
+	函数:
+
+如何编译: 
+	gcc    test.c  会在当前目录下生成a.out   执行 ./a.out
+	gcc    test.c -o    xxxx.out   编译并给结果起个名字
+
+
+
+
+
+
+

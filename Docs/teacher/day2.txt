@@ -1,0 +1,12 @@
+linux常见的命令:
+	测试网络通达与否 :	ping  ip/xxx.com
+	任务管理器:    top      终止:  ctrl+C
+	求取当前绝对路径:	pwd
+
+	显示文件的详细内容: ls   -l
+		linux下的隐藏文件  只要文件名前缀"."
+		如何查看隐藏文件:  ls -a
+	查看ip地址
+		ifconfig 
+		sudo ifconfig 网卡  ip_addr
+

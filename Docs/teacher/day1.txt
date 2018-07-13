@@ -1,0 +1,58 @@
+linux os :   ubuntu
+   cmd
+
+
+OS:  
+	vxWorks:  卫星  J20  F32      windriver 
+		收费的系统-$1 
+	linux： 2008年取代vxworks占领嵌入式市场
+		免费 开源    企业开发中
+
+	windows： PC市场       开发领域很少windows
+	 	经常出问题蓝屏 重启
+		企业中要求 电信级的安全性   
+
+
+linux目录结构：
+	windows： 多棵树组成，每个磁盘都是树根
+			D:/xxx/yyy/mmm/
+	linux：    只有一棵树 ，只有一个树根  "/"
+			/xxx/yyy/zzzz/ttt
+切换目录：
+	cd   /   :change dir
+	cd /home/lsf   切换到个人的桌面
+	cd .. 切换到?上一级目录
+	cd ../..  切换到上上级
+	cd xxxx	  切换到当前目录的xxx目录下
+显示命令：
+	ls  是list的缩写
+创建文件：
+	touch xxx.c 在当前目录下创建xxx.c
+	touch /home/lsf/xxx.c 在/home/lsf/创建
+
+目录的创建：
+	mkdir   testdir 在当前目录下创建testdir目录
+	mkdir   /home/lsf/ttdir  在其他目录创建ttdir
+文件的删除：
+	rm hello.c 删除的是当前目录下文件
+	rm  /xxx/yyy/xxx.c 删除其他目录下文件
+目录的删除：
+	rm   testdir  -r  删除当前目录下testdir
+	rm   /xx/yy/ttdir 删除其他目录下ttdir
+
+文件的拷贝：
+	cp   xxx.c  目录  : 当前目录下拷贝
+	cp   /xxx/yyy/mm.c  /home/lsf/testdir
+文件的移动：
+	mv    xxx.c   testdir   当前目录下移动
+	mv    /xxx/yy/xx.c  /home/lsf/testdir
+目录的拷贝：
+	cp   testdir  dir ： 当前目录下拷贝
+	cp    /home/xxx/testdir  /yyy/mmm/dir  
+目录的剪切：
+	mv   testdir  dir
+	mv   /home/xxx/testdir   /home/lsf/dir
+
+
+
+
