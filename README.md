@@ -5,7 +5,7 @@
 
 
 ### 嵌入式GPRS
-
+* Ubuntu :密码1
 
 ### Android开发
 
