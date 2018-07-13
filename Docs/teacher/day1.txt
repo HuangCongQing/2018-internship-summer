@@ -3,53 +3,53 @@ linux os :   ubuntu
 
 
 OS:  
-	vxWorks:  ÎÀĞÇ  J20  F32      windriver 
-		ÊÕ·ÑµÄÏµÍ³-$1 
-	linux£º 2008ÄêÈ¡´úvxworksÕ¼ÁìÇ¶ÈëÊ½ÊĞ³¡
-		Ãâ·Ñ ¿ªÔ´    ÆóÒµ¿ª·¢ÖĞ
+	vxWorks:  å«æ˜Ÿ  J20  F32      windriver 
+		æ”¶è´¹çš„ç³»ç»Ÿ-$1 
+	linuxï¼š 2008å¹´å–ä»£vxworkså é¢†åµŒå…¥å¼å¸‚åœº
+		å…è´¹ å¼€æº    ä¼ä¸šå¼€å‘ä¸­
 
-	windows£º PCÊĞ³¡       ¿ª·¢ÁìÓòºÜÉÙwindows
-	 	¾­³£³öÎÊÌâÀ¶ÆÁ ÖØÆô
-		ÆóÒµÖĞÒªÇó µçĞÅ¼¶µÄ°²È«ĞÔ   
+	windowsï¼š PCå¸‚åœº       å¼€å‘é¢†åŸŸå¾ˆå°‘windows
+	 	ç»å¸¸å‡ºé—®é¢˜è“å± é‡å¯
+		ä¼ä¸šä¸­è¦æ±‚ ç”µä¿¡çº§çš„å®‰å…¨æ€§   
 
 
-linuxÄ¿Â¼½á¹¹£º
-	windows£º ¶à¿ÃÊ÷×é³É£¬Ã¿¸ö´ÅÅÌ¶¼ÊÇÊ÷¸ù
+linuxç›®å½•ç»“æ„ï¼š
+	windowsï¼š å¤šæ£µæ ‘ç»„æˆï¼Œæ¯ä¸ªç£ç›˜éƒ½æ˜¯æ ‘æ ¹
 			D:/xxx/yyy/mmm/
-	linux£º    Ö»ÓĞÒ»¿ÃÊ÷ £¬Ö»ÓĞÒ»¸öÊ÷¸ù  "/"
+	linuxï¼š    åªæœ‰ä¸€æ£µæ ‘ ï¼Œåªæœ‰ä¸€ä¸ªæ ‘æ ¹  "/"
 			/xxx/yyy/zzzz/ttt
-ÇĞ»»Ä¿Â¼£º
+åˆ‡æ¢ç›®å½•ï¼š
 	cd   /   :change dir
-	cd /home/lsf   ÇĞ»»µ½¸öÈËµÄ×ÀÃæ
-	cd .. ÇĞ»»µ½?ÉÏÒ»¼¶Ä¿Â¼
-	cd ../..  ÇĞ»»µ½ÉÏÉÏ¼¶
-	cd xxxx	  ÇĞ»»µ½µ±Ç°Ä¿Â¼µÄxxxÄ¿Â¼ÏÂ
-ÏÔÊ¾ÃüÁî£º
-	ls  ÊÇlistµÄËõĞ´
-´´½¨ÎÄ¼ş£º
-	touch xxx.c ÔÚµ±Ç°Ä¿Â¼ÏÂ´´½¨xxx.c
-	touch /home/lsf/xxx.c ÔÚ/home/lsf/´´½¨
+	cd /home/lsf   åˆ‡æ¢åˆ°ä¸ªäººçš„æ¡Œé¢
+	cd .. åˆ‡æ¢åˆ°?ä¸Šä¸€çº§ç›®å½•
+	cd ../..  åˆ‡æ¢åˆ°ä¸Šä¸Šçº§
+	cd xxxx	  åˆ‡æ¢åˆ°å½“å‰ç›®å½•çš„xxxç›®å½•ä¸‹
+æ˜¾ç¤ºå‘½ä»¤ï¼š
+	ls  æ˜¯listçš„ç¼©å†™
+åˆ›å»ºæ–‡ä»¶ï¼š
+	touch xxx.c åœ¨å½“å‰ç›®å½•ä¸‹åˆ›å»ºxxx.c
+	touch /home/lsf/xxx.c åœ¨/home/lsf/åˆ›å»º
 
-Ä¿Â¼µÄ´´½¨£º
-	mkdir   testdir ÔÚµ±Ç°Ä¿Â¼ÏÂ´´½¨testdirÄ¿Â¼
-	mkdir   /home/lsf/ttdir  ÔÚÆäËûÄ¿Â¼´´½¨ttdir
-ÎÄ¼şµÄÉ¾³ı£º
-	rm hello.c É¾³ıµÄÊÇµ±Ç°Ä¿Â¼ÏÂÎÄ¼ş
-	rm  /xxx/yyy/xxx.c É¾³ıÆäËûÄ¿Â¼ÏÂÎÄ¼ş
-Ä¿Â¼µÄÉ¾³ı£º
-	rm   testdir  -r  É¾³ıµ±Ç°Ä¿Â¼ÏÂtestdir
-	rm   /xx/yy/ttdir É¾³ıÆäËûÄ¿Â¼ÏÂttdir
+ç›®å½•çš„åˆ›å»ºï¼š
+	mkdir   testdir åœ¨å½“å‰ç›®å½•ä¸‹åˆ›å»ºtestdirç›®å½•
+	mkdir   /home/lsf/ttdir  åœ¨å…¶ä»–ç›®å½•åˆ›å»ºttdir
+æ–‡ä»¶çš„åˆ é™¤ï¼š
+	rm hello.c åˆ é™¤çš„æ˜¯å½“å‰ç›®å½•ä¸‹æ–‡ä»¶
+	rm  /xxx/yyy/xxx.c åˆ é™¤å…¶ä»–ç›®å½•ä¸‹æ–‡ä»¶
+ç›®å½•çš„åˆ é™¤ï¼š
+	rm   testdir  -r  åˆ é™¤å½“å‰ç›®å½•ä¸‹testdir
+	rm   /xx/yy/ttdir åˆ é™¤å…¶ä»–ç›®å½•ä¸‹ttdir
 
-ÎÄ¼şµÄ¿½±´£º
-	cp   xxx.c  Ä¿Â¼  : µ±Ç°Ä¿Â¼ÏÂ¿½±´
+æ–‡ä»¶çš„æ‹·è´ï¼š
+	cp   xxx.c  ç›®å½•  : å½“å‰ç›®å½•ä¸‹æ‹·è´
 	cp   /xxx/yyy/mm.c  /home/lsf/testdir
-ÎÄ¼şµÄÒÆ¶¯£º
-	mv    xxx.c   testdir   µ±Ç°Ä¿Â¼ÏÂÒÆ¶¯
+æ–‡ä»¶çš„ç§»åŠ¨ï¼š
+	mv    xxx.c   testdir   å½“å‰ç›®å½•ä¸‹ç§»åŠ¨
 	mv    /xxx/yy/xx.c  /home/lsf/testdir
-Ä¿Â¼µÄ¿½±´£º
-	cp   testdir  dir £º µ±Ç°Ä¿Â¼ÏÂ¿½±´
+ç›®å½•çš„æ‹·è´ï¼š
+	cp   testdir  dir ï¼š å½“å‰ç›®å½•ä¸‹æ‹·è´
 	cp    /home/xxx/testdir  /yyy/mmm/dir  
-Ä¿Â¼µÄ¼ôÇĞ£º
+ç›®å½•çš„å‰ªåˆ‡ï¼š
 	mv   testdir  dir
 	mv   /home/xxx/testdir   /home/lsf/dir
 
