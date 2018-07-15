@@ -1,0 +1,58 @@
+C语言:
+
+C基础
+	变量:       万事万物都是有类型的.
+		身高-浮点double   体重-浮点      个数-整形     颜色-字符串类型
+		double height;      double  weight;    int cnt;     char color[32];
+					          short
+	int cnt = 5;
+					          long
+	访问一个变量:    有两种方式 
+		  1.变量名字 cnt=5;
+		  2.该变量的地址{int}	
+	
+	
+	函数:
+
+如何编译: 
+	gcc    test.c  会在当前目录下生成a.out   执行 ./a.out
+	gcc    test.c -o    xxxx.out   编译并给结果起个名字
+
+
+结构体:      万事万物都是有类型的
+	前面说的类型: int char  double  都是基本类型
+	如何定义一个猫类型????
+
+	struct cat {	
+	     char sex ;  int  age ;
+	    double  weight; double  length ;
+	    char name[32];  char  pinzhong[32];  
+	     ............
+	}
+	
+	struct cat 就是 猫   类型;
+	int                   整数类型
+
+	用法:
+	类型名       变量名;
+	int                i;	在内存中开辟一个 int大小的空间,给这个空间取一个名字 i
+	struct cat    xiaohua;
+
+	i = 5;
+	xiaohua.sex='W'; 
+	xiaohua.age = 12;
+	xiaohua.weight = 3.5;
+	xiaohua.lenght = 35.6;
+	...........
+
+
+	如何一次定义多个变量:
+	类型名          数组名[N];
+	int                i[10];        a[0]  ...  a[9]        |     a[5] = 9;
+	struct cat    ccat[10];    ccat[0]  ...ccat[9]
+
+
+
+
+
+
