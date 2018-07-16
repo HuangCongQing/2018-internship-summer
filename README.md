@@ -11,7 +11,7 @@
 * [02day](./Docs/teacher/02day)
 * [03day](./Docs/teacher/03day)
 * [04day](./Docs/teacher/04day)
-* [05day](./Docs/teacher/05day)
+* [05day双向通信   字符串 通信](./Docs/teacher/05day)
 
 ### Android开发
 
