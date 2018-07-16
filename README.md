@@ -7,6 +7,12 @@
 ### 嵌入式GPRS
 * Ubuntu :密码1
 
+* [day](./Docs/teacher/02day)
+* [02day](./Docs/teacher/02day)
+* [03day](./Docs/teacher/03day)
+* [04day](./Docs/teacher/04day)
+* [05day](./Docs/teacher/05day)
+
 ### Android开发
 
 ### Query
