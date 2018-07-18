@@ -3,6 +3,10 @@
 
 @ [ChungKing](https://github.com/HuangCongQing/2018-internship-summer)，若fork或star请注明来源
 
+* Source
+SIM808全套资料链接: https://pan.baidu.com/s/1qYTrvjQ 密码: buub
+操作视频:   https://cloud.video.taobao.com/play/u/2063741382/p/2/e/6/t/3/50048008202.mp4
+
 
 ### 嵌入式GPRS
 * Ubuntu :密码1
@@ -12,6 +16,8 @@
 * [03day](./Docs/teacher/03day)
 * [04day](./Docs/teacher/04day)
 * [05day双向通信   字符串 通信](./Docs/teacher/05day)
+
+
 
 ### Android开发
 
