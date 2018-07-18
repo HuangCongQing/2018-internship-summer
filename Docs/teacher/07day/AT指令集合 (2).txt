@@ -1,60 +1,61 @@
-²âÊÔ/×´Ì¬Ö¸Áî:
-	AT	·µ»ØOK,ËµÃ÷Ä£¿éÃ»ÎÊÌâ,·ñÔò²»ÐÐ
-	AT+COPS?  ×¢²áµÄÍøÂç,±ÈÈçÁªÍ¨/ÒÆ¶¯ =>  +COPS: 0,0,"CHN-UNICOM"  OK
+æµ‹è¯•/çŠ¶æ€æŒ‡ä»¤:
+	AT	è¿”å›žOK,è¯´æ˜Žæ¨¡å—æ²¡é—®é¢˜,å¦åˆ™ä¸è¡Œ
+	AT+COPS?  æ³¨å†Œçš„ç½‘ç»œ,æ¯”å¦‚è”é€š/ç§»åŠ¨ =>  +COPS: 0,0,"CHN-UNICOM"  OK
 	IMSI :  AT+CIMI   =>  46000000xxxxxxxxx  ok
 	IMEI :  AT+CGSN   =>   3512494646
-	ATE0 :¹Ø±Õ»ØÏÔ
-	ATE1 :´ò¿ª»ØÏÔ
+	ATE0 :å…³é—­å›žæ˜¾
+	ATE1 :æ‰“å¼€å›žæ˜¾
 
-	AT+CPIN?  : ¼ì²éÄ£¿é×´Ì¬   	 =>  +CPIN: READY
-	AT+CREG?  ÍøÂç×¢²áÇé¿ö²éÑ¯ 	 =>   +CREG: 0,1	±íÊ¾³É¹¦
-	AT+CSQ	  ÍøÂçÐÅºÅ¼ì²â		 =>   +CSQ: 11,0	11±íÊ¾ÐÅºÅÇ¿¶È,0-31.
+	AT+CPIN?  : æ£€æŸ¥æ¨¡å—çŠ¶æ€   	 =>  +CPIN: READY
+	AT+CREG?  ç½‘ç»œæ³¨å†Œæƒ…å†µæŸ¥è¯¢ 	 =>   +CREG: 0,1	è¡¨ç¤ºæˆåŠŸ
+	AT+CSQ	  ç½‘ç»œä¿¡å·æ£€æµ‹		 =>   +CSQ: 11,0	11è¡¨ç¤ºä¿¡å·å¼ºåº¦,0-31.
 
-ÖØÆô:
-	AT+CFUN=0  Í£Ö¹¹¤×÷    =>   OK     ¿ÉÄÜ¾­Àú6S
-	AT+CFUN=1  ¿ªÊ¼¹¤×÷    =>   OK  +CPIN: READY    ¿ÉÄÜ¾­Àú 6s×óÓÒ
-µç»°:
-	²¦´ò:   "ATDxxxxx;"     =>  OK	   ´íÎó °üº¬ ERROR /BUSY	
-					5sec ×óÓÒµÃµ½·µ»ØÖµ, 7Ãë×óÓÒÊÖ»úÏì
-	¹Òµô:	"ATH"		=>  OK
-		 ##		=>RING ·µ»ØËµÃ÷ÓÐÀ´µç 
-				Õâ¸öÊ±ºò AT+CLCC ¿ÉÒÔ»ñÈ¡À´µçºÅÂë+CLCC:1,1,4,0,0,"18290258291",129,""
-				=>NO CARRIER ËµÃ÷¶Ô·½¹Òµô 
-	À´µç×Ô¶¯ÏÔÊ¾ºÅÂë:AT+CLIP=1,1   => RING +CLIP:13322252235,129
-	±¾»úºÅÂë:  AT+CNUM	=>+CNUM: "","+8618521529962",145,7,4    OK
-	½ÓÌýµç»° ATA:		=> OK
+é‡å¯:
+	AT+CFUN=0  åœæ­¢å·¥ä½œ    =>   OK     å¯èƒ½ç»åŽ†6S
+	AT+CFUN=1  å¼€å§‹å·¥ä½œ    =>   OK  +CPIN: READY    å¯èƒ½ç»åŽ† 6så·¦å³
+ç”µè¯:
+	æ‹¨æ‰“:   "ATDxxxxx;"     =>  OK	   é”™è¯¯ åŒ…å« ERROR /BUSY	
+					5sec å·¦å³å¾—åˆ°è¿”å›žå€¼, 7ç§’å·¦å³æ‰‹æœºå“
+	æŒ‚æŽ‰:	"ATH"		=>  OK
+		 ##		=>RING è¿”å›žè¯´æ˜Žæœ‰æ¥ç”µ 
+				è¿™ä¸ªæ—¶å€™ AT+CLCC å¯ä»¥èŽ·å–æ¥ç”µå·ç +CLCC:1,1,4,0,0,"18290258291",129,""
+				=>NO CARRIER è¯´æ˜Žå¯¹æ–¹æŒ‚æŽ‰ 
+	æ¥ç”µè‡ªåŠ¨æ˜¾ç¤ºå·ç :AT+CLIP=1,1   => RING +CLIP:13322252235,129
+	æœ¬æœºå·ç :  AT+CNUM	=>+CNUM: "","+8618521529962",145,7,4    OK
+	æŽ¥å¬ç”µè¯ ATA:		=> OK
 	
-¶ÌÐÅ:
-	AT+CSCA?	¶ÌÐÅ·þÎñÖÐÐÄ		=>+CSCA: "+8613010314500",145
-	AT+CMGF=1	ÒÔÓ¢ÎÄ¸ñÊ½·¢ËÍ		=>OK
-	AT+CMGS="18290258291"	·µ»Ø> ºóÊäÈëÏûÏ¢,   ×¢ÒâÒ»¶¨Òª¿ìËÙ,ÖÐ¼ä²»ÄÜ¿ÕÏÐÌ«¾Ã
-		TEST FOR SIM8089   (×¢Òâ,×îºó·¢ËÍÒ»¸ö½áÊø·û 1A[hex]  ,ÔÚlinuxÏÂ Îª×Ö·û´® "\x1a" )
+çŸ­ä¿¡:
+	AT+CSCA?	çŸ­ä¿¡æœåŠ¡ä¸­å¿ƒ		=>+CSCA: "+8613010314500",145
+	AT+CMGF=1	ä»¥è‹±æ–‡æ ¼å¼å‘é€		=>OK
+	AT+CMGS="18290258291"	è¿”å›ž> åŽè¾“å…¥æ¶ˆæ¯,   æ³¨æ„ä¸€å®šè¦å¿«é€Ÿ,ä¸­é—´ä¸èƒ½ç©ºé—²å¤ªä¹…
+		TEST FOR SIM8089   (æ³¨æ„,æœ€åŽå‘é€ä¸€ä¸ªç»“æŸç¬¦ 1A[hex]  ,åœ¨linuxä¸‹ ä¸ºå­—ç¬¦ä¸² "\x1a" )
 
-	ÊÕµ½¶ÌÐÅ	=>    +CMTI: "SM",2[¹²¼¸ÌõÐÅÏ¢]
-	AT+CMGR=<index>	¶ÁÈ¡µÚ¼¸Ìõ¶ÌÐÅ  =>  +CMGR: 0,"",129  0891683110304105
-	at+cmgd=1,4 	É¾³ýËùÓÐ¶ÌÐÅ	=>OK
-ÍøÂçGPRS:
-	AT+CGATT?	¼ì²âÊÇ·ñÁ¬½ÓÉÏGPRSÍøÂç   =>+CGATT: 1  OK     ËµÃ÷Á¬½ÓÉÏ
-	AT+CSTT="3gnet"    Á¬½ÓapnÃû×Ö   => Á¬½Ó ÍøÂç	=> OK		\"3gnet\"     ÒÆ¶¯-cmnet ÁªÍ¨-3gnet
-	AT+CIICR   		¼¤»îÒÆ¶¯³¡¾° => OK ×¢ÒâÒªµÈ´ýÒ»»á[2s]
-	AT+CIFSR		»ñÈ¡IPµØÖ·  =>10.12.154.26    (¿ÉÒÔ½øÐÐPING²âÊÔÁË)   [µçÐÅ¾ÖÓòÍø ip]
-	AT+CIPSTART="tcp/udp","45.76.214.180","5896"    ½¨Á¢Á¬½Ó  => OK, ½Ó×ÅµÈ´ý ·µ»Ø ×´Ì¬±¨¸æ
+	æ”¶åˆ°çŸ­ä¿¡	=>    +CMTI: "SM",2[å…±å‡ æ¡ä¿¡æ¯]
+	AT+CMGR=<index>	è¯»å–ç¬¬å‡ æ¡çŸ­ä¿¡  =>  +CMGR: 0,"",129  0891683110304105
+	at+cmgd=1,4 	åˆ é™¤æ‰€æœ‰çŸ­ä¿¡	=>OK
+ç½‘ç»œGPRS:
+	AT+CGATT?	æ£€æµ‹æ˜¯å¦è¿žæŽ¥ä¸ŠGPRSç½‘ç»œ   =>+CGATT: 1  OK     è¯´æ˜Žè¿žæŽ¥ä¸Š
+	AT+CSTT="3gnet"    è¿žæŽ¥apnåå­—   => è¿žæŽ¥ ç½‘ç»œ	=> OK		\"3gnet\"     ç§»åŠ¨-cmnet è”é€š-3gnet
+	AT+CIICR   		æ¿€æ´»ç§»åŠ¨åœºæ™¯ => OK æ³¨æ„è¦ç­‰å¾…ä¸€ä¼š[2s]
+	AT+CIFSR		èŽ·å–IPåœ°å€  =>10.12.154.26    (å¯ä»¥è¿›è¡ŒPINGæµ‹è¯•äº†)   [ç”µä¿¡å±€åŸŸç½‘ ip]
+	AT+CIPSTART="tcp/udp","45.76.214.180","5896"    å»ºç«‹è¿žæŽ¥  => OK, æŽ¥ç€ç­‰å¾… è¿”å›ž çŠ¶æ€æŠ¥å‘Š
 				 AT+CIPSTART="tcp","45.76.214.180","5078"   OK
-					¼¸ÃëÖÓ[3s] ·µ»Ø  CONNECT OK/CONNECT FAIL,±íÊ¾ ³É¹¦Á¬½Ó
-	Ñ­»·Íù¸´Ê¹ÓÃ:AT+CIPSEND  ==>  ">"  µÈ´ý">"³öÏÖ²Å¿ÉÒÔÊäÈëÊý¾Ý  
-			×¢Òâ×îºóÒ»¶¨Òª¼Ó 1A[hex]  ±íÊ¾ÊäÈë½áÊø,
-		1A²»ÊôÓÚÏûÏ¢ÕýÎÄ,Ò²²»¼ÆÈëÕýÎÄ´óÐ¡,µ«ÊÇ Ò»¶¨ÒªÐ´Èë´®¿Ú,¶Ô·½½ÓÊÜ²»µ½µÄ.
-		 1a·¢ËÍÍê±Ï,»áÊÕµ½  => "SEND OK" 
-			×¢ÒâCIPSEND ºÍ> Ö®¼ä²»ÄÜ½ÓÊÕÈÎºÎÏûÏ¢,ËùÒÔÒªÇóÊ±¼ä·Ç³£¶Ì     
-	AT+CIPCLOSE  ¹Ø±Õtcp/udp Á¬½Ó    => CLOSE OK  /ERROR
-	AT+CIPSHUT	¹Ø±ÕÒÆ¶¯³¡¾°	 =>SHUT OK  [µÚÒ»´Î¿ÉÄÜ3sÖ®ºóµÃµ½½á¹û]  ²»¹Üµ±Ç°ºÎÖÖ×´Ì¬¶¼·µ»Ø
+					å‡ ç§’é’Ÿ[3s] è¿”å›ž  CONNECT OK/CONNECT FAIL,è¡¨ç¤º æˆåŠŸè¿žæŽ¥
+	å¾ªçŽ¯å¾€å¤ä½¿ç”¨:AT+CIPSEND  ==>  ">"  ç­‰å¾…">"å‡ºçŽ°æ‰å¯ä»¥è¾“å…¥æ•°æ®  
+			æ³¨æ„æœ€åŽä¸€å®šè¦åŠ  1A[hex]  è¡¨ç¤ºè¾“å…¥ç»“æŸ,
+		1Aä¸å±žäºŽæ¶ˆæ¯æ­£æ–‡,ä¹Ÿä¸è®¡å…¥æ­£æ–‡å¤§å°,ä½†æ˜¯ ä¸€å®šè¦å†™å…¥ä¸²å£,å¯¹æ–¹æŽ¥å—ä¸åˆ°çš„.
+		 1aå‘é€å®Œæ¯•,ä¼šæ”¶åˆ°  => "SEND OK" 
+			æ³¨æ„CIPSEND å’Œ> ä¹‹é—´ä¸èƒ½æŽ¥æ”¶ä»»ä½•æ¶ˆæ¯,æ‰€ä»¥è¦æ±‚æ—¶é—´éžå¸¸çŸ­     
+	AT+CIPCLOSE  å…³é—­tcp/udp è¿žæŽ¥    => CLOSE OK  /ERROR
+	AT+CIPSHUT	å…³é—­ç§»åŠ¨åœºæ™¯	 =>SHUT OK  [ç¬¬ä¸€æ¬¡å¯èƒ½3sä¹‹åŽå¾—åˆ°ç»“æžœ]  ä¸ç®¡å½“å‰ä½•ç§çŠ¶æ€éƒ½è¿”å›ž
 	
 
-ÍøÂç¹¤¾ß
-	ping²âÊÔÍøÂç×´Ì¬:
+ç½‘ç»œå·¥å…·
+	pingæµ‹è¯•ç½‘ç»œçŠ¶æ€:
 		AT+CIPPING="8.8.8.8"    =>
-		AT+CIPPING="8.8.8.8"
+		AT+CIPPING="8.8.8.8"
+
 		+CIPPING: 1,"8.8.8.8",600,255
 		.....
 		OK
-	¶¨Î»:
+	å®šä½:
