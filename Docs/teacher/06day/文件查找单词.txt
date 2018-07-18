@@ -1,0 +1,20 @@
+	char world[32]; char wordlen;
+	char buf[1024];
+	FILE *fp = fopen("./dic.txt","r")
+          while(1){
+	memset(buf,0,sizeof(buf));
+	char * pt = fgets(buf,sizeof(buf),fp);
+	if(pt == NULL){  //文件结束,没结果
+		结束  sendto( )
+	}
+	ret = strncmp(buf,world,wordlen);
+	if(ret==0){
+		sendto(buf+wordlen,clientaddr)
+	}else {
+		不相同 ,找下一个
+	}
+         }
+	
+	fclose(fp);   //退出的时候一定要close
+
+
