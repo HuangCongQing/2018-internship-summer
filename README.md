@@ -16,6 +16,8 @@ SIM808全套资料链接: https://pan.baidu.com/s/1qYTrvjQ 密码: buub
 * [03day](./Docs/teacher/03day)
 * [04day](./Docs/teacher/04day)
 * [05day双向通信   字符串 通信](./Docs/teacher/05day)
+* [06day双向通信   字符串 通信](./Docs/teacher/06day)
+* [07day电子词典](./Docs/teacher/07day)
 
 
 
