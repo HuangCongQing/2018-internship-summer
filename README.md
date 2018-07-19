@@ -7,6 +7,7 @@
 SIM808全套资料链接: https://pan.baidu.com/s/1qYTrvjQ 密码: buub
 操作视频:   https://cloud.video.taobao.com/play/u/2063741382/p/2/e/6/t/3/50048008202.mp4
 
+* 简书： https://www.jianshu.com/writer#/notebooks/27414069/notes/31105942
 
 ### 嵌入式GPRS
 * Ubuntu :密码1
