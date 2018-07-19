@@ -1,0 +1,35 @@
+GPRS    171.25Kb/s
+              17.125KB/s
+               17125B /s
+               0.017M/s     
+
+	1000       ms
+	-------  = ------
+	17125     100
+能干嘛:
+	struct msg {           size =  100B
+		double tmp;
+		double hdiy;
+		int  aqi0;
+		int pm10;
+		char des[32];
+		char resp[32];
+	}
+
+
+
+IMSI: sim唯一的标示,全球唯一.
+IMEI: 通信设备 都拥有全球唯一的码
+APN:  acess point name
+	移动网络热点名字: cmnet
+	联通:	             3gnet
+	电信:	             ctnet
+
+
+
+AT指令:
+	以AT打头
+	每一条AT指令 都有特定的返回结果
+	指令和结果之间有一个延迟,统计出来.
+
+

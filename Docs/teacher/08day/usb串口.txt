@@ -1,0 +1,2 @@
+串口 在linux里面是一个文件 /dev/ttyUSB0  /dev/ttyUSB1
+一个文件操作:  open   close   read write
